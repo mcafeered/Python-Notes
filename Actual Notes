@@ -18,3 +18,8 @@ set autoindent
 git clone https://git.cybbh.space/programming/python/public
 
 sudo apt update ; sudo apt-get install apt-transport-https ca-certificates -y ; sudo update-ca-certificates
+
+use .split() to split a string into a list ex. string.split(defines what the string is plit by like .)
+use ''.join() (the '' (code for nothing) signifies what the operand joins the value in () with) 
+
+use .input() to prompt for the user to type something which is then turned into a string that can be set as a variable ex. string = input("type sumtin")
