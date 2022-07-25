@@ -11,3 +11,12 @@ int(a) - turn float or string into int
 a = [1,2,3] - list
 a[2] - index in list
 a[-1] - last in list
+
+.vimrc settings
+syntax enable
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number 
+filetype indent on
+set autoindent
