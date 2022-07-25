@@ -12,3 +12,6 @@ set number
 filetype indent on
 set autoindent
 
+git clone https://git.cybbh.space/programming/python/public
+
+sudo apt update ; sudo apt-get install apt-transport-https ca-certificates -y ; sudo update-ca-certificates
