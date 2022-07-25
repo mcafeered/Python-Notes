@@ -1,1 +1,13 @@
+Basic script values
 
+a = whatever - int
+a = 'whatever' - string
+a = whatever.whatever - float
+a / b - division
+a * b - multiplication
+a ** b - exponents
+a % b - modulus
+int(a) - turn float or string into int
+a = [1,2,3] - list
+a[2] - index in list
+a[-1] - last in list
