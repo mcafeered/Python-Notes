@@ -1,5 +1,7 @@
 Basic script values
 
+#! /bin/usr/env python3 
+
 a = whatever - int
 a = 'whatever' - string
 a = whatever.whatever - float
