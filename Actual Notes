@@ -1,1 +1,13 @@
 When SSH'ing into the OP Staions use -Y
+
+Using vim 
+use :set nonu  to unset line numbers for copying
+delete lines using :(start line number) (end line number) d
+SHIFT+O to go over line
+o to go under linesyntax enable
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number
+filetype indent on
+set autoindent
