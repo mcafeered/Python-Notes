@@ -5,6 +5,7 @@ use :set nonu  to unset line numbers for copying
 delete lines using :(start line number) (end line number) d
 SHIFT+O to go over line
 o to go under 
+press u to undo previous mistake
 
 vim settings (edit .vimrc in home directory ~)
 linesyntax enable
@@ -23,3 +24,10 @@ use .split() to split a string into a list ex. string.split(defines what the str
 use ''.join() (the '' (code for nothing) signifies what the operand joins the value in () with) 
 
 use .input() to prompt for the user to type something which is then turned into a string that can be set as a variable ex. string = input("type sumtin")
+
+use ==, !=, <, >, <=, >= to check if things are equivalent and/or true
+use *in* to check for values inside a list
+
+use if statements to check if a condition is true or not ex. if <condition>: along with elif and else, the interpreter goes down the code from top to bottom
+use int(), float(), and str() to turn user inputs into integers, floats and strings respectively, must reassign variables to permanently convert them 
+use and(both/all conditions met), or(any of the conditions met) to add extra conditions to if elif statements
