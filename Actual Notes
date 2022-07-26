@@ -30,4 +30,7 @@ use *in* to check for values inside a list
 
 use if statements to check if a condition is true or not ex. if <condition>: along with elif and else, the interpreter goes down the code from top to bottom
 use int(), float(), and str() to turn user inputs into integers, floats and strings respectively, must reassign variables to permanently convert them 
-use and(both/all conditions met), or(any of the conditions met) to add extra conditions to if elif statements
+use *and*(both/all conditions met), *or*(any of the conditions met) to add extra conditions to if elif statements
+
+run stuff using ./ or python3, follow either with the file
+
