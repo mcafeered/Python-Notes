@@ -34,3 +34,12 @@ use *and*(both/all conditions met), *or*(any of the conditions met) to add extra
 
 run stuff using ./ or python3, follow either with the file
 
+use <string>.isnumeric() to check if a string has all numbers in it or not
+
+loops iterate repeatedly to step through data sets ex. while <condition> will do whatever instruction are under the loop until the condition is not true or a break command is given
+can use a counter to limit loops ex. while count < 10: count += 1 
+for loops use the range() function like range(20) to create a range of 0 to 20, if a list is given a string it will turn each individual character in that string into a value in the list
+can make a list of numbers using list(range(whatever)) 
+use for loops like *for num in <list>:* then give what should happen for each value in said list, num can be included in the executing part to compare it to other values or print it
+use <list>.append() to add values to a list
+Tuples cant be added to but still can be iterated through to print out values 
