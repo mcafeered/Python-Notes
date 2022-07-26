@@ -81,7 +81,7 @@ Another exercise prompting the user for temp and a conversion type (my attempt)
  14 
  15 print("Your conversion is {}".format(Temp))
 
-A script used to have the user guess a number and make sure it is a real number between 0 and 100 while also giving higher or lower
+A script used to have the user guess a number and make sure it is a real number between 0 and 100 while also giving higher or lower answers for incorrect answers
   1 #!usr/bin/python3
   2 
   3 Correct = 23
