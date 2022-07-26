@@ -80,3 +80,28 @@ Another exercise prompting the user for temp and a conversion type (my attempt)
  13     print("Incorrect Format")
  14 
  15 print("Your conversion is {}".format(Temp))
+
+A script used to have the user guess a number and make sure it is a real number between 0 and 100 while also giving higher or lower
+  1 #!usr/bin/python3
+  2 
+  3 Correct = 23
+  4 
+  5 while True: 
+  6     guess = input("Guess a number between 0 and 100: ") 
+  7     if guess.isnumeric() == True:
+  8         guess = float(guess)
+  9         if guess > 100 or guess < 0:
+ 10             print("Enter an integer between 0 and 100")
+ 11         else:
+ 12             if guess == Correct:
+ 13                 print("WIN")
+ 14                 break
+ 15             elif guess > Correct:
+ 16                 print("Too high")
+ 17             else:
+ 18                 print("Too low")
+ 19     
+ 20     else:
+ 21         print("Please enter a positive integer")
+ 22 
+ 23 
