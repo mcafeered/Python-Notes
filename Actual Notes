@@ -43,3 +43,7 @@ can make a list of numbers using list(range(whatever))
 use for loops like *for num in <list>:* then give what should happen for each value in said list, num can be included in the executing part to compare it to other values or print it
 use <list>.append() to add values to a list
 Tuples cant be added to but still can be iterated through to print out values 
+
+can get multiple values in a list but not all by doin <list>[0:4] which will omit the last value and everything after or even do <list>[0:4:2] to also only step a certain amount and grab certain values within that range
+use <list>[::-1] to reverse the list ex. 1 2 3 4 to 4 3 2 1 also use <list>[:3:-1] which follows the start stop step architecture which means it stops at 3 but goes backwards meaning it has every value from the end until that 3rd value
+
