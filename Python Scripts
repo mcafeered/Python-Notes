@@ -63,3 +63,21 @@ First real exercise using modulus to find divisibility and print certain strings
  14 
  15 else:
  16     print(userNum)
+
+Another exercise prompting the user for temp and a conversion type (my attempt)
+  1 #!usr/bin/python3
+  2 
+  3 Temp = float(input("What temperature # would you like to convert? "))
+  4 Degree = input("Is your number Celsius or Fahrenheit? ")
+  5 
+  6 if Degree == "C" or "Celsius" or "celsius":
+  7     Temp = Temp * 1.8 + 32
+  8 
+  9 elif Degree == "F" or "Fahrenheit" or "fahrenheit":
+ 10     Temp = (Temp - 32) / 1.8
+ 11 
+ 12 else:
+ 13     print("Incorrect Format")
+ 14 
+ 15 print("Your conversion is {}".format(Temp))
+
