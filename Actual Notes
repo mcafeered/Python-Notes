@@ -49,3 +49,12 @@ use <list>[::-1] to reverse the list ex. 1 2 3 4 to 4 3 2 1 also use <list>[:3:-
 
 use with open(<text.file>, <permissions>(w, r))as <fileVar> to use the commands <fileVar>.read() *gives entire file as string and can have a number in the () to define the amount of characters*, .readline(s)() *gives entire file split into lines in a list when it is readlines()* (strings are iterable via each character through the len() method)
 string slicing - <fileVar>[start:stop:step] as opposed to range which is range(start,stop,step)
+files can be copied by simultaneously opening one for reading to a variable and one for writing said variable to a new file
+
+BINARY N' STUFF 
+to turn a character into binary
+use the command ord(<Var>) to find the ordinal value of a character
+then use the command format(ord(<var>), '0>8b') where the second part after the comma defines the total length of the code given and what to fill it with if neccessary, in this case making it 8 bit and filling it with 0s
+to turn the binary back into an integer use int(<binary>, 2) where 2 species the base of the value ex. base 2 for binary
+to turn back into a character use chr(int(<binary>, 2)) 
+cannot modify stringsin python... but you can change lists which can be made with list()
