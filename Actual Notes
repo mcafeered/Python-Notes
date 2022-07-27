@@ -47,3 +47,5 @@ Tuples cant be added to but still can be iterated through to print out values
 can get multiple values in a list but not all by doin <list>[0:4] which will omit the last value and everything after or even do <list>[0:4:2] to also only step a certain amount and grab certain values within that range
 use <list>[::-1] to reverse the list ex. 1 2 3 4 to 4 3 2 1 also use <list>[:3:-1] which follows the start stop step architecture which means it stops at 3 but goes backwards meaning it has every value from the end until that 3rd value
 
+use with open(<text.file>, <permissions>(w, r))as <fileVar> to use the commands <fileVar>.read() *gives entire file as string and can have a number in the () to define the amount of characters*, .readline(s)() *gives entire file split into lines in a list when it is readlines()* (strings are iterable via each character through the len() method)
+string slicing - <fileVar>[start:stop:step] as opposed to range which is range(start,stop,step)
