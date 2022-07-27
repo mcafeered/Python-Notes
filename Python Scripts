@@ -146,3 +146,21 @@ with open('school_prompt.txt', 'r') as myfile:
         lines = myfile.readlines()
         for i in lines:
             three.append(i.split()[2])
+
+this script gets each p character in the file and adds it to a file
+p_words = []
+
+with open('school_prompt.txt', 'r') as myfile:
+    char = myfile.read().split()
+    for i in char:
+        if 'p' in i:
+            p_words.append(i)
+
+this script encodes a character into preset image values 
+  3 def steg_encode_char(char, cover):
+  4     charBin = format(ord(char), '0>8b')
+  5     for i in range(0,8):
+  6         coverBinL = list(format(int(cover[i]), '0>8b'))
+  7         coverBinL[-1] = charBin[i]
+  8         cover[i] = str(int(''.join(coverBinL), 2))
+
