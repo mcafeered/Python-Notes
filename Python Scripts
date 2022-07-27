@@ -120,3 +120,29 @@ A script used to have the user guess a number and make sure it is a real number 
  12     for i in l:
  13         NewList.append(str(255 - int(i)))
  14     return NewList
+
+The following scripts were used on RuneAcademy to solve various with open('<txt.file>', '<permission>') as <fileVar> format
+
+this script finds the total number of characters in a file
+with open('travel_plans.txt', 'r')as myfile:
+    num = len(myfile.read())
+
+this script finds the total number of words in a file
+with open('emotion_words.txt', 'r')as myfile:
+    num_words = len(myfile.read().split())
+
+this script finds the total amount of sentences in a file
+with open('school_prompt.txt', 'r') as myfile:
+    num_lines = len(myfile.readlines())
+
+this script gets the first 30 characters of the file and saves them
+with open('school_prompt.txt', 'r')as myfile:
+    beginning_chars = myfile.read(30)
+
+this script get the third word of every line in a file
+three = []
+
+with open('school_prompt.txt', 'r') as myfile:
+        lines = myfile.readlines()
+        for i in lines:
+            three.append(i.split()[2])
