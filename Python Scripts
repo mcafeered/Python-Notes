@@ -28,12 +28,16 @@ set number
 filetype indent on
 set autoindent
 
+
+
 Basic user input script with example of .format
   1 #!/usr/bin/python3
   2 
   3 user_input = input("what is your username? ")
   4 
   5 print("Hello {} welcome to Bikini Bottom" .format(user_input))
+
+
 
 First exercise using .split to extract info from an email address (myattempt)
   1 #!/usr/bin/python3
@@ -46,6 +50,8 @@ First exercise using .split to extract info from an email address (myattempt)
   8 print("Good Morning {}, Welcome to {}".format(usr_firstName,usr_split[1]))
 alternatively use domain = user_email.split("@")[1]    and 
 firstname = user_email.split("@")[0].split('.')[0] for max efficiency
+
+
 
 First real exercise using modulus to find divisibility and print certain strings if true (my attempt)
   1 #!/usr/bin/env python3
@@ -65,6 +71,8 @@ First real exercise using modulus to find divisibility and print certain strings
  15 else:
  16     print(userNum)
 
+
+
 Another exercise prompting the user for temp and a conversion type (my attempt)
   1 #!usr/bin/python3
   2 
@@ -81,6 +89,8 @@ Another exercise prompting the user for temp and a conversion type (my attempt)
  13     print("Incorrect Format")
  14 
  15 print("Your conversion is {}".format(Temp))
+
+
 
 A script used to have the user guess a number and make sure it is a real number between 0 and 100 while also giving higher or lower answers for incorrect answers
   1 #!usr/bin/python3
@@ -105,6 +115,8 @@ A script used to have the user guess a number and make sure it is a real number 
  20     else:
  21         print("Please enter a positive integer")
  
+ 
+ 
  An example of how to iterate through lists and change values while adding them back into the list or creating a new list
   1 #!/usr/bin/env python3
   2 
@@ -121,40 +133,54 @@ A script used to have the user guess a number and make sure it is a real number 
  13         NewList.append(str(255 - int(i)))
  14     return NewList
 
+
+
 The following scripts were used on RuneAcademy to solve various with open('<txt.file>', '<permission>') as <fileVar> format
+
+
 
 this script finds the total number of characters in a file
 with open('travel_plans.txt', 'r')as myfile:
     num = len(myfile.read())
 
+
+
 this script finds the total number of words in a file
 with open('emotion_words.txt', 'r')as myfile:
     num_words = len(myfile.read().split())
+
+
 
 this script finds the total amount of sentences in a file
 with open('school_prompt.txt', 'r') as myfile:
     num_lines = len(myfile.readlines())
 
+
+
 this script gets the first 30 characters of the file and saves them
 with open('school_prompt.txt', 'r')as myfile:
     beginning_chars = myfile.read(30)
 
+
+
 this script get the third word of every line in a file
 three = []
-
 with open('school_prompt.txt', 'r') as myfile:
         lines = myfile.readlines()
         for i in lines:
             three.append(i.split()[2])
 
+
+
 this script gets each p character in the file and adds it to a file
 p_words = []
-
 with open('school_prompt.txt', 'r') as myfile:
     char = myfile.read().split()
     for i in char:
         if 'p' in i:
             p_words.append(i)
+
+
 
 this script encodes a character into preset image values 
   3 def steg_encode_char(char, cover):
@@ -164,3 +190,10 @@ this script encodes a character into preset image values
   7         coverBinL[-1] = charBin[i]
   8         cover[i] = str(int(''.join(coverBinL), 2))
 
+
+
+can count how many times letters pop up using dictionaries
+for i in my str:
+  if i in my dict[i] += 1
+else:
+  mydict[i] = 1
