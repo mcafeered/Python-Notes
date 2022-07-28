@@ -58,3 +58,20 @@ then use the command format(ord(<var>), '0>8b') where the second part after the 
 to turn the binary back into an integer use int(<binary>, 2) where 2 species the base of the value ex. base 2 for binary
 to turn back into a character use chr(int(<binary>, 2)) 
 cannot modify stringsin python... but you can change lists which can be made with list()
+
+can use .lower() to make a string all lowercase
+
+to import libraries just use the line import <library> then use the name of the import with a period to call a function from it ex. <library>.doit(), you can also import things as <var> to make it easier to type them 
+from <library> can also be used to only get specific functions from the library
+
+use sort to list values in a list in descending or ascending order ex. <list>.sort or use sorted() to return a separate sorted list to go through
+
+variable length argument uses *args which can take as many or as little arguments as given, args is referenced without the * 
+
+sets (ex. s = {1,2,23,21,34,45,54}) can only be checked for values and added / removed from which can be used to get rid of duplicates in a list, you can join sets .union(), 
+
+dict ex. mydict = {'i':1, 'v':5, 'x':10} dictionaries only allow their values to be taken out if the value the "key" to the left of the colon is referenced, add Dict keys using mydict ['l'] = 50 dicts can be iterable but only outputting the keys, use del mydict['key'] to delete values
+
+can use a * to unpack a list and remove the brackets
+
+map() applies a function to every iteration of a list which is map(function, iterable)+
