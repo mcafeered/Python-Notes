@@ -652,4 +652,4 @@ with open (file, 'r') as f0:
   with open (file2, 'w') as f1:
     f1.writelines(f0.readlines()can add [2] to specify what is added)
 
-
+list a singular string to break it into a list of characters in the word
