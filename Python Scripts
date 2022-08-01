@@ -621,3 +621,29 @@ def q10(arr):
     None. For example, given [1,2,3,4,6,7], the returned value should be 6. 
     '''
     pass
+
+
+
+myip = '192.168.0.23' can be split using myip.split('.') 
+compare using if int(myip.split('.')[-1]) <= 62:
+                print("This IP falls within the specified range")
+                
+list slicing mylist[0:3] uses : as opposed to , mylist[start:stop:step], ex. mylist[::-1] reads the list in reverse, mylist[3::] starts at the 3rd index and goes to the end while mylist[::3] gets every third value, range is similar to this but holding a list of numbers in the range specified use mylist[:5] to get the last 5 in a list
+use range(0,1024) for well known port range
+    
+    
+use .format to turn names into emails like '{}.{}.{}@{}.com' (first, middle[0](middle initial), last, domain)
+
+myDict = {} use mydict['Pvt'] = 'E-1' to add values and use keys to reference values and values to reference keys, when you iterate through a dictionary by default you get the keys, refrence the keys in the loop to get values
+
+basic count code 
+mydict = {}
+mylist = ['ab', 'bc', 'lol', 'bc']
+for i in mylist:
+  mydict[i] += 1
+else:
+  mydict[i] += 1
+
+
+
+
