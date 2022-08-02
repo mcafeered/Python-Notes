@@ -653,3 +653,16 @@ with open (file, 'r') as f0:
     f1.writelines(f0.readlines()can add [2] to specify what is added)
 
 list a singular string to break it into a list of characters in the word
+
+
+
+
+    userinput = input()
+    better = list(userinput)
+    for i in better:
+        if i.isnumeric() == False:
+            better.remove(i)
+        elif i == 'z':
+            better.remove('z')
+    return int(''.join(better))
+
